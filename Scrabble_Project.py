@@ -1,5 +1,4 @@
 import time
-import datetime
 import random
 from english_words import english_words_set
 
@@ -67,7 +66,7 @@ else:
     quit()
 
 print("The timer will be activated and you will type as many words as possible using your given letters. Remember to type 'sp' to refresh your letters")
-time.sleep(5)
+time.sleep(10)
 print("start typing!!")
 
 timer_begin = time.time()
