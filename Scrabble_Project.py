@@ -71,6 +71,7 @@ print("start typing!!")
 
 timer_begin = time.time()
 
+#i got the code for a background timer from this link: https://stackoverflow.com/questions/26002497/how-to-run-a-background-timer-in-python#comment40723966_26002647
 while (time.time() - timer_begin < 10):
     player_word = input()
     if (player_word == "sp"):
