@@ -1,6 +1,7 @@
 import time
 import random
 from english_words import english_words_set
+#how could I forget?! This game would not be possible without mwiens91 having made this library. The github link to his file is https://github.com/mwiens91/english-words-py 
 
 player_score = 0 #initialize score
 
