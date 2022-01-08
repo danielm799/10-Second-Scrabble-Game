@@ -12,7 +12,7 @@ given_random_numbers = [random.randint(0, 25) for i in range(8)]
 alphabet = list(letter_to_score_pairs.keys())
 given_letters = [alphabet[i] for i in given_random_numbers]
 
-#is the word a real english word?
+#is the word an english word?
 def is_it_a_word(word):
     if (word in english_words_set) == True:
         return True
@@ -53,7 +53,7 @@ You will earn points only if your words contains the given letters.
 - you may also type "sp" (for "scramble please") in order to refresh your letter list if you got an unlucky draw
         *to scramble the list more than once, you must type "sp" again and hit <Enter> twice.
 
-This is the first project that I will be doing without my hand being held. If somebody happens upon this program and finds it to be shitty, then that person would be right.
+This is the first project that I will be doing without my hand being held. If somebody happens upon this program and finds it to be bad, then that person would be right.
 oh, and your score will be initialized to 0. You can only gain points, not lose points.
  """.format(player_name))
 
@@ -62,7 +62,7 @@ ready_or_not = input("are you ready, {}? type either 'yes' or 'Yes': ".format(pl
 if ready_or_not == "yes" or ready_or_not == "Yes":
     print("alright, {}. the letters youre confined to are: ".format(player_name), given_letters)
 else:
-    print("what? sorry, I cant hear you beyond me being extremely dissatisfied with you. toodles ;)")
+    print("k bye lol ;]")
     quit()
 
 print("The timer will be activated and you will type as many words as possible using your given letters. Remember to type 'sp' to refresh your letters")
