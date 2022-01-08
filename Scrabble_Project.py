@@ -1,3 +1,6 @@
+#Daniel Medina made this program :P
+#January 1st, 2021 is when I started making this program.
+#a submission for codeacademy, and a submission for myself.
 import time
 import random
 from english_words import english_words_set
