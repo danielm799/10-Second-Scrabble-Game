@@ -55,7 +55,9 @@ You will earn points only if your words contains the given letters.
 - everything must be lowercase
 - no punctuation is necessary
 - you may also type "sp" (for "scramble please") in order to refresh your letter list if you got an unlucky draw
-        *to scramble the list more than once, you must type "sp" again and hit <Enter> twice.
+        *if you have already used "sp" once and wish to use it again, then in each subsequent time you must type and enter "sp" twice like this:*
+        sp
+        sp
 
 This is the first project that I will be doing without my hand being held. If somebody happens upon this program and finds it to be bad, then that person would be right.
 oh, and your score will be initialized to 0. You can only gain points, not lose points.
@@ -70,7 +72,7 @@ else:
     quit()
 
 print("The timer will be activated and you will type as many words as possible using your given letters. Remember to type 'sp' to refresh your letters")
-time.sleep(10)
+time.sleep(4)
 print("start typing!!")
 
 timer_begin = time.time()
